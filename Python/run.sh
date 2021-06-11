@@ -1,1 +1,1 @@
-python3 .\stt.py
+python3 stt.py

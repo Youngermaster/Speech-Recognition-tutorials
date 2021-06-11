@@ -1,1 +1,1 @@
-pip3 install SpeechRecognition pydub
+pip install SpeechRecognition pydub
