@@ -53,5 +53,13 @@ def get_large_audio_transcription(path):
     # return the text for all chunks detected
     return whole_text
 
+
 if __name__ == "__main__":
-   get_large_audio_transcription('C:\\Users\\juanm\\GitHub\\Youngermaster\\Speech-Recognition-tutorials\\audio\\ILikePizza.wav')
+    get_large_audio_transcription(
+        'C:\\Users\\juanm\\GitHub\\Youngermaster\\Speech-Recognition-tutorials\\audio\\ILikePizza.wav')
+    get_large_audio_transcription(
+        'C:\\Users\\juanm\\GitHub\\Youngermaster\\Speech-Recognition-tutorials\\audio\\2830-3980-0043.wav')
+    get_large_audio_transcription(
+        'C:\\Users\\juanm\\GitHub\\Youngermaster\\Speech-Recognition-tutorials\\audio\\4507-16021-0012.wav')
+    get_large_audio_transcription(
+        'C:\\Users\\juanm\\GitHub\\Youngermaster\\Speech-Recognition-tutorials\\audio\\8455-210777-0068.wav')
