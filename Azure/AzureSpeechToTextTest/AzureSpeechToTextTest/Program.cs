@@ -12,7 +12,7 @@ namespace AzureSpeechToTextTest
         async static Task FromFile(SpeechConfig speechConfig)
         {
             //using var audioConfig = AudioConfig.FromWavFileInput(@"C:\Users\juanm\Documents\GitHub\Youngermaster\Speech-Recognition-tutorials\Azure\AzureSpeechToTextTest\AzureSpeechToTextTest\rpiRecording.wav");
-            using var audioConfig = AudioConfig.FromWavFileInput(@"C:\Users\juanm\Documents\GitHub\Youngermaster\Speech-Recognition-tutorials\Azure\AzureSpeechToTextTest\AzureSpeechToTextTest\ILikePizza.wav");
+            using var audioConfig = AudioConfig.FromWavFileInput(@"C:\Users\juanm\GitHub\Youngermaster\Speech-Recognition-tutorials\Azure\AzureSpeechToTextTest\AzureSpeechToTextTest\ILikePizza.wav");
             using var recognizer = new SpeechRecognizer(speechConfig, audioConfig);
 
             var result = await recognizer.RecognizeOnceAsync();
